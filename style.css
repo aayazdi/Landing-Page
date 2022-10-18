@@ -1,0 +1,75 @@
+/* General structure */
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+.container {
+    background-color: #1F2937;   
+}
+.intro{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+.external-links, .intro, .text {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+.logo{
+    font-size:24px;
+    color: #F9FAF8;
+}
+button, .rectangle.four {
+    background-color: #3882f6;
+}
+.techniques{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+.box.three{
+background-color: #e5e7eb;
+}
+.qute.three{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1f2937
+}
+/* Flexbox */
+
+.header.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.external-links {
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+a, li, ul{
+    list-style: none;
+    color:white;
+    outline: none;
+    text-decoration: none;
+    
+}
+.rectangle.one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+
+}
+.signup.one{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
